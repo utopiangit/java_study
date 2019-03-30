@@ -1,0 +1,25 @@
+package Prices;
+import java.util.Scanner;
+
+public class Prices {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] prices = new int[n];
+        for (int i = 0; i < n; ++i)
+        {
+        	prices[i] = sc.nextInt();
+        }
+
+        System.out.println(maximum_profit(prices));
+
+	}
+
+	public static int maximum_profit(int n, int[] prices)
+	{
+		retunr prices[0];
+	}
+
+}
